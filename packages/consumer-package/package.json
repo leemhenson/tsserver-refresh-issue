@@ -1,0 +1,20 @@
+{
+  "name": "consumer-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".emitted/src/index.js",
+  "types": ".emitted/src/index.d.ts",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shared-package": "*"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
